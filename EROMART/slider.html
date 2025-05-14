@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section style="background-color: #f1f1f1;">
+    <div>
+      
+      <h3 class="h2">best selling</h3>
+    </div>
+    <div class="container">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./asset/Fake-note-detector.jpg " width="250px" height="250p" class="img-fluid"><br><br>
+          <p class="para"><a href=""> fake note Detector</a></p></div>
+          <div class="swiper-slide"><img src="./asset/Bill-Counter.jpg" width="250px" height="250p"  class="img-fluid"><br><br>
+          <p class="para"><a href="">bill counter</a></p></div>
+          <div class="swiper-slide"><img src="./asset/Handheld-billing-machine.jpg" width="250px" height="250p"  class="img-fluid"><br><br>
+          <p class="para"><a href="">Handheld billing Machine</a></p></div>
+          <div class="swiper-slide"><img src="./asset/anti-theft-alarm-lock.jpg" width="250px" height="250p" class="img-fluid"><br><br>
+          <p class="para"><a href="">anti theft alarm clock</a></p></div>
+          <div class="swiper-slide"><img src="./asset/automatic-water-dispenser.jpg" width="250px" height="250p" class="img-fluid" ><br><br>
+          <p class="para"><a href="">water dispenser</a></p></div>
+        
+        </div>
+        </div>
+    </div>
+    </section>
+        <script>
+            const swiper = new Swiper(".mySwiper", {
+              loop: true,
+              slidesPerView: 1,
+              spaceBetween: 10,
+              autoplay:true,
+              breakpoints: {
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 4 }
+          }
+        });
+      </script>
+ 
+</body>
+</html>
